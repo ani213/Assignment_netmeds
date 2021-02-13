@@ -1,0 +1,246 @@
+
+@media screen and (min-width:851px) {
+
+body{
+  background-color: #EBECF0;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0 5% 0;
+}
+.card-main-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 20px;
+  width: 80%;
+}
+.card-container{
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+  display: grid;
+  grid-template-rows: auto 180px auto;
+  cursor: pointer;
+}
+.middle{
+  padding: 0px 25px;
+  /* background: yellowgreen; */
+  margin-top: -10px;
+}
+.bottom-content{
+  float: right;
+  transform: rotate(180deg)
+}
+.A-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.symbol-size{
+  font-size: 60px;
+  font-weight: bold;
+}
+.class-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.horizental{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.vertical{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.rotate{
+  transform: rotate(180deg);
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.number-size{
+  font-size: 25px;
+  font-weight: 800;
+}
+
+
+ 
+}
+
+
+/*********************************************** Tablet View***************************/
+@media screen and (min-width:451px) and (max-width:850px) {
+
+  body{
+    background-color: #EBECF0;
+  }
+  .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 5% 0;
+  }
+  .card-main-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+    width: 80%;
+  }
+  .card-container{
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: auto 180px auto;
+    cursor: pointer;
+  }
+  .middle{
+    padding: 0px 25px;
+    margin-top: -10px;
+  }
+  .bottom-content{
+    float: right;
+    transform: rotate(180deg)
+  }
+  .A-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .symbol-size{
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .class-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .horizental{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .vertical{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
+  .rotate{
+    transform: rotate(180deg);
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .number-size{
+    font-size: 25px;
+    font-weight: 800;
+  }
+  
+ 
+}
+
+
+
+
+
+/* ****************************************************************** */
+
+@media screen and (max-width:450px) {
+ 
+  body{
+    background-color: #EBECF0;
+  }
+  .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 5% 0;
+  }
+  .card-main-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    width: 80%;
+  }
+  .card-container{
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: auto 180px auto;
+    cursor: pointer;
+  }
+  .middle{
+    padding: 0px 25px;
+    margin-top: -10px;
+  }
+  .bottom-content{
+    float: right;
+    transform: rotate(180deg)
+  }
+  .A-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .symbol-size{
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .class-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .horizental{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .vertical{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
+  .rotate{
+    transform: rotate(180deg);
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .number-size{
+    font-size: 25px;
+    font-weight: 800;
+  }
+  
+}
