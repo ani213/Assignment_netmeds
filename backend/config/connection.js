@@ -2,6 +2,7 @@ const Sequelize=require("sequelize");
 let sequelize= new Sequelize("test", "root", "password", {
     host: 'localhost',
     dialect: 'mysql',
+    logging: false,
   });
 
 sequelize
